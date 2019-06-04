@@ -39,6 +39,12 @@ const setTextFilter = (text = '') => ({
     text
 });
 
+// SET_SORT_BY
+const setSortBy = (sortBy = 'date') => ({
+    type: 'SET_SORT_BY',
+    sortBy
+});
+
 // SORT_BY_DATE
 const sortByDate = () => ({
     type: 'SORT_BY_DATE'

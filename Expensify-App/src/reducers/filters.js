@@ -14,6 +14,11 @@ export default (state = filtersReducerDefaultState, action) => {
                 ...state,
                 text: action.text
             };
+        case 'SET_SORT_BY':
+            return {
+                ...state,
+                sortBy: action.sortBy
+            };
         case 'SORT_BY_DATE':
             return {
                 ...state,
